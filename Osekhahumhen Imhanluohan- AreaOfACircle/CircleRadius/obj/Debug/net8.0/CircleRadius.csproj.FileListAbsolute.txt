@@ -1,0 +1,30 @@
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.exe
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.deps.json
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.runtimeconfig.json
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.pdb
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.AssemblyInfoInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.AssemblyInfo.cs
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.csproj.CoreCompileInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.sourcelink.json
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\refint\CircleRadius.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.pdb
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.genruntimeconfig.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\ref\CircleRadius.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.exe
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.deps.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.runtimeconfig.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\bin\Debug\net8.0\CircleRadius.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.AssemblyInfoInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.AssemblyInfo.cs
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.csproj.CoreCompileInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.sourcelink.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\refint\CircleRadius.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\CircleRadius.genruntimeconfig.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\CSharp\CircleRadius\CircleRadius\obj\Debug\net8.0\ref\CircleRadius.dll
