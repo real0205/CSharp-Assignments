@@ -1,12 +1,598 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\domainlayer\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\osekhahumhen.imhan\\desktop\\c#\\mycsharp-assignments\\csharp-assignments\\blogapi\\blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:40:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IBlogService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IBlogService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\IBlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:37:10.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\ICommentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\ICommentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:38:00.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IRoleService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IRoleService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:38:18.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRole.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:33:45.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IUserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:38:36.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CategoryService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:25.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:10:04.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Category.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:20:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\AuthorService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\AuthorService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:38:54.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\IAuthorService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\IAuthorService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:36:52.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\IService\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:37:28.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\RoleService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:57.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\CommentService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CommentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\CommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:41.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\BlogService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\BlogService.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\BlogService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\BlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:04.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:33:22.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Role.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:32:27.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:51:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:49:46.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Author.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:19:27.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:50:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:49:59.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:50:43.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Comment.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:35:28.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Blog.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Blog.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Blog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:19:43.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:05:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\BaseModel.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:18:29.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBlog.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:41:21.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IComment.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:41:40.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:40:47.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:40:13.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:39:49.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\Program.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Program.cs",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\Program.cs",
+              "RelativeToolTip": "BlogApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T22:29:27.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\appsettings.json",
+              "RelativeToolTip": "BlogApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T22:31:19.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
