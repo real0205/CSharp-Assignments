@@ -24,13 +24,13 @@ namespace BusinessLogicLayer.Service
         {
             if (string.IsNullOrWhiteSpace(author.FirstName))
             {
-                message = "FirstName cannot be empty";
+                message = "First Name cannot be empty";
                 return null;
             }
 
             if (string.IsNullOrWhiteSpace(author.LastName))
             {
-                message = "LastName cannot be empty";
+                message = "Last Name cannot be empty";
                 return null;
             }
 
@@ -80,13 +80,13 @@ namespace BusinessLogicLayer.Service
         {
             if (string.IsNullOrWhiteSpace(author.FirstName))
             {
-                message = "FirstName is required";
+                message = "First Name is required";
                 return null;
             }
 
             if (string.IsNullOrWhiteSpace(author.LastName))
             {
-                message = "LastName is required";
+                message = "Last Name is required";
                 return null;
             }
 
