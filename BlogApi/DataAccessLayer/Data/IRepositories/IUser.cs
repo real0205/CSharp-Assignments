@@ -14,7 +14,7 @@ namespace DataAccessLayer.Data.IRepositories
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        User? Get(int id);
+        User? Get(string id);
 
         /// <summary>
         /// Get all User
@@ -40,6 +40,6 @@ namespace DataAccessLayer.Data.IRepositories
         /// </summary>
         /// <param name="User"></param>
         /// <returns></returns>
-        User Update(int id, User User);
+        User Update(string id, User User);
     }
 }

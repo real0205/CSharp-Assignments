@@ -9,15 +9,15 @@ namespace BlogApi.DomainLayer.Models
 
         [ForeignKey("AuthorId")]
         public Author Author { get; set; }
-        public string AuthorId { get; set; }
+        public int AuthorId { get; set; }
 
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
 
         [ForeignKey("CommentId")]
         public Comment Comment { get; set; }
-        public string CommentId { get; set; }
+        public int CommentId { get; set; }
 
         [ForeignKey("UserId")]
         public User User { get; set; }

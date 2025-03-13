@@ -34,7 +34,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            if (DateOnly.IsNullOrWhiteSpace(user.dob))
+            if (user.dob == null)
             {
                 message = "DOB cannot be empty";
                 return null;
@@ -44,9 +44,9 @@ namespace BusinessLogicLayer.Service
             ; return _userRepository.Create(user);
         }
 
-        public bool DeleteUser(int id)
+        public bool DeleteUser(string id)
         {
-            if (id <= 0)
+            if (string.IsNullOrWhiteSpace(id))
             {
                 return false;
             }
@@ -67,9 +67,9 @@ namespace BusinessLogicLayer.Service
             return _userRepository.Get();
         }
 
-        public User? GetUser(int id)
+        public User? GetUser(string id)
         {
-            if (id <= 0)
+            if (string.IsNullOrWhiteSpace(id))
             {
                 return null;
             }

@@ -61,6 +61,11 @@ namespace DataAccessLayer.Repositories
             _applicationDbContext.Blogs.Update(existingBlog);
             _applicationDbContext.SaveChanges();
 
+            existingBlog.AuthorId = blog.CategoryId;
+
+            _applicationDbContext.Blogs.Update(existingBlog);
+            _applicationDbContext.SaveChanges();
+
             existingBlog.CommentId = blog.CommentId;
 
             _applicationDbContext.Blogs.Update(existingBlog);

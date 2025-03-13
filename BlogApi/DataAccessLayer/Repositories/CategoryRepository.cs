@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
+    
     public class CategoryRepository : ICategory
     {
         private readonly ApplicationDBContext _applicationDbContext;
