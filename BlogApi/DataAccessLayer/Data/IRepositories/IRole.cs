@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Data.IRepositories
 {
-    interface IRole
+    public interface IRole
     {
     }
 }

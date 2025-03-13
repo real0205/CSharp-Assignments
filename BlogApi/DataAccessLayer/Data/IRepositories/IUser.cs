@@ -41,5 +41,6 @@ namespace DataAccessLayer.Data.IRepositories
         /// <param name="User"></param>
         /// <returns></returns>
         User Update(string id, User User);
+        
     }
 }

@@ -35,3 +35,13 @@ C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\B
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.pdb
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.genruntimeconfig.cache
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\ref\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.AssemblyReference.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfoInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfo.cs
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.CoreCompileInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.sourcelink.json
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\refint\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.pdb
