@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Reallife\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Reallife\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osekhahumhen.imhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -97,20 +97,20 @@
         }
       }
     },
-    "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
-        "packagesPath": "C:\\Users\\Reallife\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\obj\\",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
+        "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Reallife\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osekhahumhen.imhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

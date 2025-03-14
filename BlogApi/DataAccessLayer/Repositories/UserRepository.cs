@@ -1,4 +1,5 @@
-﻿using BlogApi.DomainLayer.Models;
+﻿using BlogApi.DataAccessLayer.Data;
+using BlogApi.DomainLayer.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,8 @@ namespace DataAccessLayer.Repositories
     public class UserRepository
     {
         private readonly UserManager<User> _userManager;
+
+       
 
         public UserRepository(UserManager<User> userManager)
         {
@@ -27,7 +30,7 @@ namespace DataAccessLayer.Repositories
             return await _userManager.FindByIdAsync(id);
         }
 
-        public async Task<User> createUser(User user)
+        public async Task<User> CreateUser(User user)
         {
             IdentityResult result = await _userManager.CreateAsync(user, user.PasswordHash);
 
@@ -37,6 +40,17 @@ namespace DataAccessLayer.Repositories
             }
 
             return user;
+        }
+
+        public async Task<User?> Get(string id)
+        {
+            User? user = await _userManager.FindByIdAsync(id);
+            return user;
+        }
+
+        public List<User> Get()
+        {
+            return _userManager.Users.ToList();
         }
 
         public async Task<User?> UpdateUser(User user)
@@ -50,7 +64,7 @@ namespace DataAccessLayer.Repositories
             return user;
         }
 
-        public async Task<bool> deleteUser(User user)
+        public async Task<bool> DeleteUser(User user)
         {
             IdentityResult result = await _userManager.DeleteAsync(user);
 

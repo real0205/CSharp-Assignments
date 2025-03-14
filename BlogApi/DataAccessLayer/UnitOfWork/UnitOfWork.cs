@@ -1,5 +1,7 @@
 ﻿using BlogApi.DataAccessLayer.Data;
+using BlogApi.DomainLayer.Models;
 using DataAccessLayer.Repositories;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +10,15 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.UnitOfWork
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private ApplicationDBContext _applicationDbContext;
-        public UnitOfWork(ApplicationDBContext applicationDbContext)
+        private readonly UserManager<User> _userManager;
+
+        public UnitOfWork(ApplicationDBContext applicationDbContext, UserManager<User> userManager)
         {
             _applicationDbContext = applicationDbContext;
+            _userManager = userManager;
         }
 
         private AuthorRepository _authorRepository;
@@ -31,9 +36,18 @@ namespace DataAccessLayer.UnitOfWork
 
         public CommentRepository commentRepository => _commentRepository ??= new CommentRepository(_applicationDbContext);
 
+        public UserRepository userRepository => _userRepository ??= new UserRepository(_userManager);
+
+        public async Task<int> CompleteAsync()
+        {
+            return await _applicationDbContext.SaveChangesAsync();
+        }
+
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _applicationDbContext.Dispose();
+            GC.SuppressFinalize(this);
         }
+
     }
 }

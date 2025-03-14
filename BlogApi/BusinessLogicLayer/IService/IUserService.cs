@@ -14,7 +14,7 @@ namespace BusinessLogicLayer.IService
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        User? GetUser(string id);
+        Task<User?> GetUser(string id);
 
         /// <summary>
         /// Get all User
@@ -27,20 +27,20 @@ namespace BusinessLogicLayer.IService
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        bool DeleteUser(string id);
+        Task<bool> DeleteUser(string id);
 
         /// <summary>
         /// Update User
         /// </summary>
         /// <param name="User"></param>
         /// <returns></returns>
-        User? UpdateUser(User User, out string message);
+        Task<User?>? UpdateUser(User User);
 
         /// <summary>
         /// Create User
         /// </summary>
         /// <param name="User"></param>
         /// <returns></returns>
-        User? CreateUser(User User, out string message);
+        Task<User?> CreateUser(User User);
     }
 }

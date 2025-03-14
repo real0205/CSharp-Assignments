@@ -15,19 +15,13 @@ namespace BusinessLogicLayer.Service
     {
         //CategoryRepository _categoryRepository;
 
-        private readonly ICategory _categoryRepository;
 
-        public CategoryService(ICategory categoryRepository)
-        {
-            _categoryRepository = categoryRepository;
-        }
+        private readonly IUnitOfWork _unitOfWork;
 
         public CategoryService(IUnitOfWork unitOfWork)
         {
-            UnitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
-
-        public IUnitOfWork UnitOfWork { get; }
 
         public Category? CreateCategory(Category category, out string message)
         {
@@ -38,7 +32,7 @@ namespace BusinessLogicLayer.Service
             }
 
             message = "Created Successfuly";
-            ; return _categoryRepository.Create(category);
+            ; return _unitOfWork.categoryRepository.Create(category);
         }
 
         public bool DeleteCategory(int id)
@@ -48,20 +42,20 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            Category? category = _categoryRepository.Get(id);
+            Category? category = _unitOfWork.categoryRepository.Get(id);
 
             if (category == null)
             {
                 return false;
             }
 
-            _categoryRepository.Delete(category);
+            _unitOfWork.categoryRepository.Delete(category);
             return true;
         }
 
         public List<Category> GetAllCategory()
         {
-            return _categoryRepository.Get();
+            return _unitOfWork.categoryRepository.Get();
         }
 
         public Category? GetCategory(int id)
@@ -70,7 +64,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _categoryRepository.Get(id);
+            return _unitOfWork.categoryRepository.Get(id);
         }
 
         public Category? UpdateCategory(Category category, out string message)
@@ -82,7 +76,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Category? updatedCategory = _categoryRepository.Get(category.Id);
+            Category? updatedCategory = _unitOfWork.categoryRepository.Get(category.Id);
 
             if (updatedCategory is null)
             {

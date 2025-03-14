@@ -10,3 +10,15 @@ C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\DataAccessLaye
 C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
 C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

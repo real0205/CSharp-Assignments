@@ -2,6 +2,7 @@
 using BlogApi.DomainLayer.Models;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperModel;
+using BusinessLogicLayer.UnitOfWorkService;
 using DomainLayer.DTO.AuthorDto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,11 +12,12 @@ namespace BlogApi.Controllers
     [ApiController]
     public class AuthorController : ControllerBase
     {
-        IAuthorService _authorService;
+        //IAuthorService _authorService;
+        IUnitOfWorkService _unitOfWorkService;
         IMapper _mapper;
-        public AuthorController(IAuthorService authorService, IMapper mapper)
+        public AuthorController(IAuthorService authorService, IMapper mapper, IUnitOfWorkService unitOfWorkService)
         {
-            _authorService = authorService;
+            _unitOfWorkService = unitOfWorkService;
             _mapper = mapper;
         }
 
@@ -24,13 +26,13 @@ namespace BlogApi.Controllers
         {
             //return Ok(_authorService.GetAllAuthor()); // action result. That's why it contains ok
 
-            return Ok(_mapper.Map<IList<AuthorDto>>(_authorService.GetAllAuthor()));
+            return Ok(_mapper.Map<IList<AuthorDto>>(_unitOfWorkService.authorService.GetAllAuthor()));
         }
 
         [HttpGet]
         public IActionResult GetById(int id)
         {
-            Author? author = _authorService.GetAuthor(id);
+            Author? author = _unitOfWorkService.authorService.GetAuthor(id);
 
             if (author == null)
             {
@@ -51,7 +53,7 @@ namespace BlogApi.Controllers
             AuthorMapper authorMapper = new AuthorMapper();
             Author mappedAuthor = authorMapper.MapAuthorRequestToAuthor(author);
 
-            Author? createdAuthor = _authorService.CreateAuthor(mappedAuthor, out string message);
+            Author? createdAuthor = _unitOfWorkService.authorService.CreateAuthor(mappedAuthor, out string message);
             if (createdAuthor == null)
             {
                 return BadRequest(message);
@@ -67,7 +69,7 @@ namespace BlogApi.Controllers
             AuthorMapper authorMapper = new AuthorMapper();
             Author resultOfmapping = authorMapper.MapUpdateAuthorDtoToAuthor(author);
 
-            Author? authorUpdated = _authorService.UpdateAuthor(resultOfmapping, out string message);
+            Author? authorUpdated = _unitOfWorkService.authorService.UpdateAuthor(resultOfmapping, out string message);
 
 
 

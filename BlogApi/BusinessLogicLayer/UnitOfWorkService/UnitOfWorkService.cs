@@ -16,13 +16,13 @@ namespace BusinessLogicLayer.UnitOfWorkService
             _unitOfWork = unitOfWork;
         }
 
-        private AuthorService _likeService;
+        private AuthorService _authorService;
         private BlogService _postService;
         private CategoryService _categoryService;
         private CommentService _commentService;
         private UserService _userService;
 
-        public AuthorService authorService => _likeService ??= new AuthorService(_unitOfWork);
+        public AuthorService authorService => _authorService ??= new AuthorService(_unitOfWork);
 
         public BlogService blogService => _postService ??= new BlogService(_unitOfWork);
 
@@ -34,7 +34,10 @@ namespace BusinessLogicLayer.UnitOfWorkService
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _unitOfWork?.Dispose();
+
+            GC.SuppressFinalize(this);
         }
+
     }
 }

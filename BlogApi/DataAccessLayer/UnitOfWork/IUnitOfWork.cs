@@ -13,5 +13,6 @@ namespace DataAccessLayer.UnitOfWork
         BlogRepository blogRepository { get; }
         CategoryRepository categoryRepository { get; }
         CommentRepository commentRepository { get; }
+        UserRepository userRepository { get; }
     }
 }

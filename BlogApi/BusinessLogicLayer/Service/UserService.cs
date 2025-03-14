@@ -12,95 +12,81 @@ namespace BusinessLogicLayer.Service
 {
     public class UserService : IUserService
     {
-        //UserRepository _categoryRepository;
+        //UserRepository _userRepository;
 
-        private readonly IUser _userRepository;
-
-        public UserService(IUser userRepository)
-        {
-            _userRepository = userRepository;
-        }
+        private readonly IUnitOfWork _unitOfWork;
 
         public UserService(IUnitOfWork unitOfWork)
         {
-            UnitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
-        public IUnitOfWork UnitOfWork { get; }
-
-        public User? CreateUser(User user, out string message)
+        public Task<User?> CreateUser(User user)
         {
             if (string.IsNullOrWhiteSpace(user.firstname))
             {
-                message = "First Name cannot be empty";
                 return null;
             }
 
             if (string.IsNullOrWhiteSpace(user.lastname))
             {
-                message = "Last Name cannot be empty";
                 return null;
             }
 
             if (user.dob == null)
             {
-                message = "DOB cannot be empty";
                 return null;
             }
 
-            message = "Created Successfuly";
-            ; return _userRepository.Create(user);
+            return _unitOfWork.userRepository.CreateUser(user);
         }
 
-        public bool DeleteUser(string id)
+        public async Task<bool> DeleteUser(string id)
         {
             if (string.IsNullOrWhiteSpace(id))
             {
                 return false;
             }
 
-            User? user = _userRepository.Get(id);
+            User? user = await  _unitOfWork.userRepository.Get(id);
 
             if (user == null)
             {
                 return false;
             }
 
-            _userRepository.Delete(user);
+            _unitOfWork.userRepository.DeleteUser(user);
             return true;
         }
 
         public List<User> GetAllUser()
         {
-            return _userRepository.Get();
+            return _unitOfWork.userRepository.Get();
         }
 
-        public User? GetUser(string id)
+        public async Task<User?> GetUser(string id)
         {
             if (string.IsNullOrWhiteSpace(id))
             {
                 return null;
             }
-            return _userRepository.Get(id);
+            return await _unitOfWork.userRepository.Get(id);
         }
 
-        public User? UpdateUser(User user, out string message)
+        public async Task<User?> UpdateUser(User user)
         {
 
             if (string.IsNullOrWhiteSpace(user.firstname))
             {
-                message = "First Name is required";
                 return null;
             }
 
-            User? updatedUser = _userRepository.Get(user.Id);
+            User? updatedUser = await _unitOfWork.userRepository.Get(user.Id);
 
             if (updatedUser is null)
             {
-                message = "User not found";
                 return null;
             }
-            message = "User Updated Successfully";
             return updatedUser;
         }
     }

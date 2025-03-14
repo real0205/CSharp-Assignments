@@ -2,20 +2,21 @@
 using BlogApi.DomainLayer.Models;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperModel;
+using BusinessLogicLayer.UnitOfWorkService;
 using DomainLayer.DTO.CategoryDto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApi.Controllers
 {
-    [Route("api/[controller]")]    // [controller]/[action] can be used in place of ("GetCategory")
+    [Route("api/[controller]")]    
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        ICategoryService _categoryService;
+        IUnitOfWorkService _unitOfWorkService;
         IMapper _mapper;
-        public CategoryController(ICategoryService categoryService, IMapper mapper)
+        public CategoryController(ICategoryService categoryService, IMapper mapper, IUnitOfWorkService unitOfWorkService)
         {
-            _categoryService = categoryService;
+            _unitOfWorkService = unitOfWorkService;
             _mapper = mapper;
         }
 
@@ -23,13 +24,13 @@ namespace BlogApi.Controllers
         public IActionResult GetCategory()
         {
             //return Ok(_categoryService.GetAllCategory()); 
-            return Ok(_mapper.Map<IList<CategoryDto>>(_categoryService.GetAllCategory()));
+            return Ok(_mapper.Map<IList<CategoryDto>>(_unitOfWorkService.categoryService.GetAllCategory()));
         }
 
         [HttpGet]
         public IActionResult GetById(int id)
         {
-            Category? category = _categoryService.GetCategory(id);
+            Category? category = _unitOfWorkService.categoryService.GetCategory(id);
 
             if (category == null)
             {
@@ -50,7 +51,7 @@ namespace BlogApi.Controllers
             CategoryMapper categoryMapper = new CategoryMapper();
             Category mappedCategory = categoryMapper.MapCategoryRequestToCategory(category);
 
-            Category? createdCategory = _categoryService.CreateCategory(mappedCategory, out string message);
+            Category? createdCategory = _unitOfWorkService.categoryService.CreateCategory(mappedCategory, out string message);
             if (createdCategory == null)
             {
                 return BadRequest(message);
@@ -66,7 +67,7 @@ namespace BlogApi.Controllers
             CategoryMapper categoryMapper = new CategoryMapper();
             Category resultOfmapping = categoryMapper.MapUpdateCategoryDtoToCategory(category);
 
-            Category? categoryUpdated = _categoryService.UpdateCategory(resultOfmapping, out string message);
+            Category? categoryUpdated = _unitOfWorkService.categoryService.UpdateCategory(resultOfmapping, out string message);
 
 
 

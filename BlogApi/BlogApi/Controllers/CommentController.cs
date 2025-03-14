@@ -2,6 +2,7 @@
 using BlogApi.DomainLayer.Models;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperModel;
+using BusinessLogicLayer.UnitOfWorkService;
 using DomainLayer.DTO.CommentDto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,11 +12,11 @@ namespace BlogApi.Controllers
     [ApiController]
     public class CommentController : ControllerBase
     {
-        ICommentService _commentService;
+        IUnitOfWorkService _unitOfWorkService;
         IMapper _mapper;
-        public CommentController(ICommentService commentService, IMapper mapper)
+        public CommentController(ICommentService commentService, IMapper mapper, IUnitOfWorkService unitOfWorkService)
         {
-            _commentService = commentService;
+            _unitOfWorkService = unitOfWorkService;
             _mapper = mapper;
         }
 
@@ -24,13 +25,13 @@ namespace BlogApi.Controllers
         {
             //return Ok(_commentService.GetAllComment()); // action result. That's why it contains ok
 
-            return Ok(_mapper.Map<IList<CommentDto>>(_commentService.GetAllComment()));
+            return Ok(_mapper.Map<IList<CommentDto>>(_unitOfWorkService.commentService.GetAllComment()));
         }
 
         [HttpGet]
         public IActionResult GetById(int id)
         {
-            Comment? comment = _commentService.GetComment(id);
+            Comment? comment = _unitOfWorkService.commentService.GetComment(id);
 
             if (comment == null)
             {
@@ -51,7 +52,7 @@ namespace BlogApi.Controllers
             CommentMapper commentMapper = new CommentMapper();
             Comment mappedComment = commentMapper.MapCommentRequestToComment(comment);
 
-            Comment? createdComment = _commentService.CreateComment(mappedComment, out string message);
+            Comment? createdComment = _unitOfWorkService.commentService.CreateComment(mappedComment, out string message);
             if (createdComment == null)
             {
                 return BadRequest(message);
@@ -67,7 +68,7 @@ namespace BlogApi.Controllers
             CommentMapper commentMapper = new CommentMapper();
             Comment resultOfmapping = commentMapper.MapUpdateCommentDtoToComment(comment);
 
-            Comment? commentUpdated = _commentService.UpdateComment(resultOfmapping, out string message);
+            Comment? commentUpdated = _unitOfWorkService.commentService.UpdateComment(resultOfmapping, out string message);
 
 
 

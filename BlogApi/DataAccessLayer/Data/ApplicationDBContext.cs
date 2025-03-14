@@ -17,8 +17,8 @@ namespace BlogApi.DataAccessLayer.Data
         public DbSet<Author> Authors { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<User> Role { get; set; }
+        //public DbSet<User> User { get; set; }
+        //public DbSet<User> Role { get; set; }
 
     }
 }

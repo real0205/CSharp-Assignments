@@ -38,5 +38,10 @@ namespace BusinessLogicLayer.MapperModel
                 dob = updateUserDto.dob,
             };
         }
+
+        public UserDto MapUserToUserDto(Task<User?> createdUser)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

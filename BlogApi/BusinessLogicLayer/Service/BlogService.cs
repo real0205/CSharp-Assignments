@@ -13,19 +13,12 @@ namespace BusinessLogicLayer.Service
 {
     public class BlogService : IBlogService
     {
-        //BlogRepository _blogRepository;
+        private IUnitOfWork _unitOfWork;
 
-        private readonly IBlog _blogRepository;
-        private IUnitOfWork unitOfWork;
-
-        public BlogService(IBlog blogRepository)
-        {
-            _blogRepository = blogRepository;
-        }
 
         public BlogService(IUnitOfWork unitOfWork)
         {
-            this.unitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
         public IUnitOfWork UnitOfWork { get; }
@@ -57,7 +50,7 @@ namespace BusinessLogicLayer.Service
             }
 
             message = "Created Successfuly";
-            ; return _blogRepository.Create(blog);
+            ; return _unitOfWork.blogRepository.Create(blog);
         }
 
         public bool DeleteBlog(int id)
@@ -67,20 +60,20 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            Blog? blog = _blogRepository.Get(id);
+            Blog? blog = _unitOfWork.blogRepository.Get(id);
 
             if (blog == null)
             {
                 return false;
             }
 
-            _blogRepository.Delete(blog);
+            _unitOfWork.blogRepository.Delete(blog);
             return true;
         }
 
         public List<Blog> GetAllBlog()
         {
-            return _blogRepository.Get();
+            return _unitOfWork.blogRepository.Get();
         }
 
         public Blog? GetBlog(int id)
@@ -89,7 +82,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _blogRepository.Get(id);
+            return _unitOfWork.blogRepository.Get(id);
         }
 
         public Blog? UpdateBlog(Blog blog, out string message)
@@ -118,7 +111,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Blog? updatedBlog = _blogRepository.Get(blog.Id);
+            Blog? updatedBlog = _unitOfWork.blogRepository.Get(blog.Id);
 
             if (updatedBlog is null)
             {

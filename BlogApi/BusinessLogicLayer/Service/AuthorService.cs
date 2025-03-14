@@ -14,17 +14,14 @@ namespace BusinessLogicLayer.Service
     public class AuthorService : IAuthorService
     {
         //AuthorRepository _authorRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        private readonly IAuthor _authorRepository;
-
-        public AuthorService(IAuthor authorRepository)
-        {
-            _authorRepository = authorRepository;
-        }
+        //private readonly IAuthor _authorRepository;
 
         public AuthorService(IUnitOfWork unitOfWork)
         {
-            UnitOfWork = unitOfWork;
+            //_authorRepository = authorRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public IUnitOfWork UnitOfWork { get; }
@@ -50,7 +47,8 @@ namespace BusinessLogicLayer.Service
             }
 
             message = "Created Successfuly";
-            ; return _authorRepository.Create(author);
+            //; return _authorRepository.Create(author);
+            return _unitOfWork.authorRepository.Create(author);
         }
 
         public bool DeleteAuthor(int id)
@@ -60,20 +58,20 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            Author? author = _authorRepository.Get(id);
+            Author? author = _unitOfWork.authorRepository.Get(id);
 
             if (author == null)
             {
                 return false;
             }
 
-            _authorRepository.Delete(author);
+            _unitOfWork.authorRepository.Delete(author);
             return true;
         }
 
         public List<Author> GetAllAuthor()
         {
-            return _authorRepository.Get();
+            return _unitOfWork.authorRepository.Get();
         }
 
         public Author? GetAuthor(int id)
@@ -82,7 +80,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _authorRepository.Get(id);
+            return _unitOfWork.authorRepository.Get(id);
         }
 
         public Author? UpdateAuthor(Author author, out string message)
@@ -105,7 +103,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Author? updatedAuthor = _authorRepository.Get(author.Id);
+            Author? updatedAuthor = _unitOfWork.authorRepository.Get(author.Id);
 
             if (updatedAuthor is null)
             {

@@ -15,19 +15,12 @@ namespace BusinessLogicLayer.Service
     {
         //CommentRepository _commentRepository;
 
-        private readonly IComment _commentRepository;
-
-        public CommentService(IComment commentRepository)
-        {
-            _commentRepository = commentRepository;
-        }
+        private readonly IUnitOfWork _unitOfWork;
 
         public CommentService(IUnitOfWork unitOfWork)
         {
-            UnitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
-
-        public IUnitOfWork UnitOfWork { get; }
 
         public Comment? CreateComment(Comment comment, out string message)
         {
@@ -38,7 +31,7 @@ namespace BusinessLogicLayer.Service
             }
 
             message = "Created Successfuly";
-            ; return _commentRepository.Create(comment);
+            ; return _unitOfWork.commentRepository.Create(comment);
         }
 
         public bool DeleteComment(int id)
@@ -48,20 +41,20 @@ namespace BusinessLogicLayer.Service
                 return false;
             }
 
-            Comment? comment = _commentRepository.Get(id);
+            Comment? comment = _unitOfWork.commentRepository.Get(id);
 
             if (comment == null)
             {
                 return false;
             }
 
-            _commentRepository.Delete(comment);
+            _unitOfWork.commentRepository.Delete(comment);
             return true;
         }
 
         public List<Comment> GetAllComment()
         {
-            return _commentRepository.Get();
+            return _unitOfWork.commentRepository.Get();
         }
 
         public Comment? GetComment(int id)
@@ -70,7 +63,7 @@ namespace BusinessLogicLayer.Service
             {
                 return null;
             }
-            return _commentRepository.Get(id);
+            return _unitOfWork.commentRepository.Get(id);
         }
 
         public Comment? UpdateComment(Comment comment, out string message)
@@ -82,7 +75,7 @@ namespace BusinessLogicLayer.Service
                 return null;
             }
 
-            Comment? updatedComment = _commentRepository.Get(comment.Id);
+            Comment? updatedComment = _unitOfWork.commentRepository.Get(comment.Id);
 
             if (updatedComment is null)
             {

@@ -2,6 +2,7 @@
 using BlogApi.DomainLayer.Models;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperModel;
+using BusinessLogicLayer.UnitOfWorkService;
 using DomainLayer.DTO.BlogDto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,11 +13,11 @@ namespace BlogApi.Controllers
     public class BlogController : ControllerBase
     {
 
-        IBlogService _blogService;
+        IUnitOfWorkService _unitOfWorkService;
         IMapper _mapper;
-        public BlogController(IBlogService blogService, IMapper mapper)
+        public BlogController(IBlogService blogService, IMapper mapper, IUnitOfWorkService unitOfWorkService)
         {
-            _blogService = blogService;
+            _unitOfWorkService = unitOfWorkService;
             _mapper = mapper;
         }
 
@@ -25,13 +26,13 @@ namespace BlogApi.Controllers
         {
             //return Ok(_blogService.GetAllBlog()); // action result. That's why it contains ok
 
-            return Ok(_mapper.Map<IList<BlogDto>>(_blogService.GetAllBlog()));
+            return Ok(_mapper.Map<IList<BlogDto>>(_unitOfWorkService.blogService.GetAllBlog()));
         }
 
         [HttpGet]
         public IActionResult GetById(int id)
         {
-            Blog? blog = _blogService.GetBlog(id);
+            Blog? blog = _unitOfWorkService.blogService.GetBlog(id);
 
             if (blog == null)
             {
@@ -52,7 +53,7 @@ namespace BlogApi.Controllers
             BlogMapper blogMapper = new BlogMapper();
             Blog mappedBlog = blogMapper.MapBlogRequestToBlog(blog);
 
-            Blog? createdBlog = _blogService.CreateBlog(mappedBlog, out string message);
+            Blog? createdBlog = _unitOfWorkService.blogService.CreateBlog(mappedBlog, out string message);
             if (createdBlog == null)
             {
                 return BadRequest(message);
@@ -68,7 +69,7 @@ namespace BlogApi.Controllers
             BlogMapper blogMapper = new BlogMapper();
             Blog resultOfmapping = blogMapper.MapUpdateBlogDtoToBlog(blog);
 
-            Blog? blogUpdated = _blogService.UpdateBlog(resultOfmapping, out string message);
+            Blog? blogUpdated = _unitOfWorkService.blogService.UpdateBlog(resultOfmapping, out string message);
 
 
 

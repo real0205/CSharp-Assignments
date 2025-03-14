@@ -2,6 +2,7 @@
 using BlogApi.DomainLayer.Models;
 using BusinessLogicLayer.IService;
 using BusinessLogicLayer.MapperModel;
+using BusinessLogicLayer.UnitOfWorkService;
 using DomainLayer.DTO.UserDto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,11 +12,11 @@ namespace BlogApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        IUserService _userService;
+        IUnitOfWorkService _unitOfWorkService;
         IMapper _mapper;
-        public UserController(IUserService userService, IMapper mapper)
+        public UserController(IUserService userService, IMapper mapper, IUnitOfWorkService unitOfWorkService)
         {
-            _userService = userService;
+            _unitOfWorkService = unitOfWorkService;
             _mapper = mapper;
         }
 
@@ -24,13 +25,13 @@ namespace BlogApi.Controllers
         {
             //return Ok(_userService.GetAllUser());
 
-            return Ok(_mapper.Map<IList<UserDto>>(_userService.GetAllUser()));
+            return Ok(_mapper.Map<IList<UserDto>>(_unitOfWorkService.userService.GetAllUser()));
         }
 
         [HttpGet]
         public IActionResult GetById(string id)
         {
-            User? user = _userService.GetUser(id);
+            Task<User?>? user = _unitOfWorkService.userService.GetUser(id);
 
             if (user == null)
             {
@@ -51,10 +52,10 @@ namespace BlogApi.Controllers
             UserMapper userMapper = new UserMapper();
             User mappedUser = userMapper.MapUserRequestToUser(user);
 
-            User? createdUser = _userService.CreateUser(mappedUser, out string message);
+            Task<User?> createdUser = _unitOfWorkService.userService.CreateUser(mappedUser);
             if (createdUser == null)
             {
-                return BadRequest(message);
+                return BadRequest();
             }
 
             UserDto userDto = userMapper.MapUserToUserDto(createdUser);
@@ -67,13 +68,13 @@ namespace BlogApi.Controllers
             UserMapper userMapper = new UserMapper();
             User resultOfmapping = userMapper.MapUpdateUserDtoToUser(user);
 
-            User? userUpdated = _userService.UpdateUser(resultOfmapping, out string message);
+            Task<User?> userUpdated = _unitOfWorkService.userService.UpdateUser(resultOfmapping);
 
 
 
             if (userUpdated == null)
             {
-                return BadRequest(message);
+                return BadRequest();
             }
 
             UserDto userDto = userMapper.MapUserToUserDto(userUpdated);

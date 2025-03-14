@@ -8,17 +8,12 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.UnitOfWorkService
 {
-    public class IUnitOfWorkService : IDisposable
+    public interface IUnitOfWorkService : IDisposable
     {
-        AuthorService likeService { get; }
-        BlogService postService { get; }
+        AuthorService authorService { get; }
+        BlogService blogService { get; }
         CategoryService categoryService { get; }
         CommentService commentService { get; }
         UserService userService { get; }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

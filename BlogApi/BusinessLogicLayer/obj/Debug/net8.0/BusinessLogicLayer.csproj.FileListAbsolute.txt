@@ -14,3 +14,5 @@ C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\B
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
 C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
